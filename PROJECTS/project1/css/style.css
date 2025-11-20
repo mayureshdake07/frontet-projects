@@ -1,0 +1,141 @@
+/* Reset default browser styles */
+body, ul, li, h1, p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header styling */
+header {
+  background-color: #ff6347;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo and nav items */
+.logo img {
+  height: 48px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+header ul, .logo ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+header li {
+  margin: 0 15px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main p {
+  font-size: 1.4em;
+  margin: 40px 0 20px 0;
+  color: #333;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 12px;
+  width: 320px;
+  max-width: 90vw;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 1em;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #ff6347;
+  outline: none;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 0.98em;
+  letter-spacing: 1px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+}
+.swiggy-features {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+  border-top: 2px solid #ff6347;
+  margin: 40px auto;
+  max-width: 900px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgb(255 99 71 / 0.2);
+}
+
+.swiggy-features h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #ff6347;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature-item {
+  flex: 1 1 250px;
+  margin: 0 15px;
+  padding: 15px;
+}
+
+.feature-item h3 {
+  color: #333;
+  font-size: 1.4em;
+  margin-bottom: 12px;
+}
+
+.feature-item p {
+  color: #555;
+  font-size: 1em;
+  line-height: 1.4;
+}
